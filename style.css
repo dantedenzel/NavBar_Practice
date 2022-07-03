@@ -36,6 +36,7 @@
     animation: pulse 5s infinite;
 }
 
+/* having a difficult time adding this pulse feature */
 @keyframes pulse {
     0% {
     background-color: ghostwhite;
