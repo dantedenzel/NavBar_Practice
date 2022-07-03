@@ -31,6 +31,19 @@
 .topnav .icon {
     display: none;
 }
+/* CSS animation */
+.bigbutton {
+    animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+    background-color: ghostwhite;
+    }
+    100% {
+    background-color: #FF4136;
+    }
+}
 /* When the screeen is less than 600 px wide, hide all links, except for the fires one "Home." Show the link that contains should open and close the topnav (*.icon) */
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
